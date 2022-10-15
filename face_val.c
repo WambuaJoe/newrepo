@@ -21,6 +21,11 @@ int main() {
     else {
         val = atoi(card_name);
     }
-    printf("Card value is: %i\n", val);
-    return 0;
+
+    if ((val > 2) && (val < 7))
+        puts("Count has gone up");
+    else if(val == 10)
+        puts("Count has gone down");
+    
+        return 0;
 }
