@@ -1,9 +1,12 @@
 // this program is used to determine the current month using the switch statement
-
+#include <stdlib.h>
 #include <stdio.h>
 
 int main() {
-    int Month = 4;
+    char Month[12];
+    printf("Enter the current month: ");
+    scanf("%s", Month);
+    int Month = 7;
 
     switch (Month) {
         case 1:
@@ -24,5 +27,9 @@ int main() {
         case 6:
         printf("June\n");
             break;
+        default:
+        printf("Looking forward to the holidays\n");
+            break;
+
     }
 }
