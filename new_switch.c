@@ -4,9 +4,7 @@
 int main() {
     char card_name[3];
     puts("Enter card name: ");
-    fgets(card_name, sizeof(card_name), stdin);
-    puts("Card name: ");
-    puts(card_name);
+    scanf("%2s", card_name);
     int val = 0;
 
     switch (card_name[0]) {
