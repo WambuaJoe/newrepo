@@ -5,9 +5,6 @@
 int main() {
     
     int Month;
-    char Month[12];
-    printf("Enter the current month: ");
-    scanf("%s", Month);
     
     switch (Month) {
         case 1:
