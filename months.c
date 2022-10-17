@@ -6,8 +6,7 @@ int main() {
     char Month[12];
     printf("Enter the current month: ");
     scanf("%s", Month);
-    int Month = 7;
-
+    
     switch (Month) {
         case 1:
             printf("January\n");
@@ -26,7 +25,12 @@ int main() {
             break;
         case 6:
         printf("June\n");
-            break;
+        case 7:
+        printf("July\n");
+        case 8:
+        printf("August\n");
+        case 9:
+        printf("September\n");
         default:
         printf("Looking forward to the holidays\n");
             break;
