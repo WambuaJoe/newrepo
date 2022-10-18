@@ -3,11 +3,8 @@
 // program to get input from a user
 int main() {
     
-   char name[20];
-    printf("Enter your name: ");
-   fgets(name, sizeof(name), stdin);
-    //calling the function
-    printf("You name is %s\n", name);
+   int Mabonzo[] = {5, 7, 9, 12, 13};
+    printf("%d ", Mabonzo[3]);
 
     return 0;
 }
