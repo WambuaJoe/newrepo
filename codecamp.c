@@ -3,8 +3,7 @@
 // program to get input from a user
 int main() {
     
-   int Mabonzo[] = {5, 7, 9, 12, 13};
-    printf("%d ", Mabonzo[3]);
-
+   int Number[10];
+   
     return 0;
 }
