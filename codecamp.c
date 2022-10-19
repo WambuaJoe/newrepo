@@ -9,15 +9,28 @@
    };
    
 int main() {
-    struct codecamp student1;
-    strcpy(student1.StudID, "a101-ALX");
-    strcpy(student1.course, "Introduction to C programming");
-    strcpy(student1.StudName, "Joseph Wambua");
-    student1.score = 134.43;
+    char name[10];
+    char course[20];
+    char studID[20];
+    printf("Enter Name\n: ");
+    scanf("%s", name);
+    printf("Enter Course\n: ");
+    scanf("%s", course);
+    printf("Enter Stud ID\n: ");
+    scanf("%s", studID);
+    
 
-    printf("%f", student1.score);
-    printf("%c", student1.StudID);
-    printf("%c", student1.course);
-    printf("%c", student1.StudName);
+
+    struct codecamp student1;
+    strcpy(student1.StudName, name);
+    strcpy(student1.course, course);
+    strcpy(student1.StudID, studID);
+    student1.score = 134.43;
+    
+    printf("\n\nThe student name is %s\n", student1.StudName);
+    printf("The course is %s\n", student1.course);
+    printf("Student ID is %s\n", student1.StudID);
+    printf("The score is %lf\n", student1.score);
+
     return 0;
 }
