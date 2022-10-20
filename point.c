@@ -1,9 +1,9 @@
 #include "main.h"
 
 int main() {
-  int age = 24;
+  int age;
+  int* addr = &age;
+  *addr = 10;
+  printf("Age: %d\n", *addr);
 
-  printf("%d", age);
-
-  return 0;
 }
