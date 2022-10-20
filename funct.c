@@ -2,8 +2,8 @@
 
 
 int main() {
-  HiB();
   
+  void HiB();
   return 0;
 }
 
