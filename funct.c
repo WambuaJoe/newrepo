@@ -2,11 +2,9 @@
 
 
 int main() {
-  
-  void HiB();
-  return 0;
-}
 
-void HiB() {
-  printf("Gotcha bitch");
+	float a = 12.67;
+	printf(".2%f\n", a);
+	printf("%e\n", a);
+	return 0;
 }
