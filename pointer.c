@@ -28,15 +28,21 @@ int main() {
     char char_arr[5] = {'a', 'b', 'c', 'd', 'e'};
     int int_arr[5] = {2, 4, 6, 8, 10};
 
-    char *char_ptr = (char *) int_arr;
+    void *void_ptr;
+    void_ptr = (void *) int_arr;
+
+    /*char *char_ptr = (char *) int_arr;
     int *int_ptr = (int *) char_arr;
+    */
 
     for (i = 0; i < 5; i++) {
-        printf("[integer pointer] points to %p, that contains  integer %c\n", int_ptr, *int_ptr);
-        int_ptr = (int *)((char *)int_ptr +1);
+        printf("[integer pointer] points to %p, that contains  integer %d\n", void_ptr, *((int *) void_ptr));
+        void_ptr = (void *)((int *) void_ptr +1);
     }
+
+    void_ptr = (void *) char_arr;
     for (i = 0; i < 5; i++) {
-        printf("[char pointer] points to %p, that contains character %d\n", char_ptr, *char_ptr);
-        char_ptr = (char *)((int *)char_ptr +1);
+        printf("[char pointer] points to %p, that contains character %c\n", void_ptr, *((char *) void_ptr));
+       void_ptr = (void *)((char *) void_ptr +1);
     }
 }
