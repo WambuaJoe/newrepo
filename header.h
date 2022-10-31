@@ -13,6 +13,6 @@
 
 
 //Functions
-
+void goSouthEast(int *latitude, int *longitude);
 
 #endif
