@@ -16,7 +16,7 @@ int main() {
 }
 */
 // function that returns a result after parameter arithmetic after function call
-int funct1(int j, int k) {
+/*int funct1(int j, int k) {
     return 5 * (j * k);
 }
 
@@ -45,3 +45,4 @@ type functName(parameter1, parameter2, parameterN) {
 }
 
 */
+
