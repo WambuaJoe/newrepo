@@ -46,3 +46,13 @@ type functName(parameter1, parameter2, parameterN) {
 
 */
 
+int func();
+
+int main() {
+    int i = func();
+}
+
+int func() {
+
+    return 0;
+}
