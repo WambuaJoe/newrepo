@@ -14,7 +14,7 @@ int main() {
     mabonzo("Wambua");
     return 0;
 }
-*/
+
 // function that returns a result after parameter arithmetic after function call
 /*int funct1(int j, int k) {
     return 5 * (j * k);
@@ -28,7 +28,8 @@ int main() {
 }
 
 // function declaration and definition
-/*
+
+
 type functName(parameter1, parameter2, paremeterN); //declaration
 
 //main method
@@ -46,13 +47,45 @@ type functName(parameter1, parameter2, parameterN) {
 
 */
 
-int func();
+/*void func();
+
+static int _count = 5;
 
 int main() {
-    int i = func();
+    while (_count--)
+    {
+        func();
+    }
 }
 
-int func() {
+void func() {
+    static int i = 5;
+    i++;
+    
+    printf("i = %d\t, count = %d\n", i, _count);
+}
+
+#define pi 3.14159
+#define multiplication(x, y) x * y
+
+int main() {
+    printf("%.3f,\n", (pi + 7.259));
+    printf("value is %d", multiplication(4,5));
+
+    return 0;
+}*/
+
+int fun()
+{
+    static int count = 0;
+    count++;
+    return count;
+}
+
+int main()
+{
+    printf("%d\n", fun());
+    printf("%d\n", fun());
 
     return 0;
 }
