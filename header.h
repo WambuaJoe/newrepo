@@ -8,6 +8,8 @@
 #include <unistd.h>
 #include <math.h>
 
+
+int variable = 15;
 //Prototypes
 
 

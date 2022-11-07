@@ -73,11 +73,11 @@ int main() {
     printf("value is %d", multiplication(4,5));
 
     return 0;
-}*/
+}
 
 int fun()
 {
-    static int count = 0;
+    static int count = 1;
     count++;
     return count;
 }
@@ -86,6 +86,15 @@ int main()
 {
     printf("%d\n", fun());
     printf("%d\n", fun());
+    printf("%d\n", fun());
+
+    return 0;
+}*/
+
+extern int variable;
+
+int main() {
+    printf("%d\n", variable * 4);
 
     return 0;
 }
