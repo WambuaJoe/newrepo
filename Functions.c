@@ -89,12 +89,47 @@ int main()
     printf("%d\n", fun());
 
     return 0;
-}*/
+}
 
 extern int variable;
 
 int main() {
     printf("%d\n", variable * 4);
+
+    return 0;
+}
+
+
+int x = 20;//global variable
+
+void function1() {
+    printf("%d\n" , x * 2);
+}
+
+void function2() {
+    printf("%d\n" , x);
+}
+
+int main() {
+
+    function1();
+    function2();
+
+	return 0;
+}*/
+
+void funct() {
+    int x = 2; //local variable
+    auto int y = 3; //static variable
+
+    x += 2;
+    y += 2;
+
+    printf("\n%d, %d", x, y);
+}
+
+int main() {
+    funct();
 
     return 0;
 }
