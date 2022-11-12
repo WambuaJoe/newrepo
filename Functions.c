@@ -46,10 +46,6 @@ type functName(parameter1, parameter2, parameterN) {
     return (parameter operationName);
 }
 
-*/
-
-/*void func();
-
 static int _count = 5;
 
 int main() {
@@ -134,7 +130,7 @@ int main() {
 
     return 0;
 }
-
+*/
 
 int sum(int a) {
     if (a != 0) {
@@ -155,22 +151,4 @@ int main() {
 
     printf("sum = %d", result);
     return 0;
-}*/
-
-int main() {
-    int stock[5], i, n, sum = 0;
-    double avg;
-    //receive input and store in array
-   printf("Enter number of elements: ");
-   scanf("%d", &n);
-
-   for (i = 0; i < n; i++) {
-    printf("Enter number %d: ", i + 1);
-    scanf("%d", &stock[i]);
-
-    sum += stock[i];
-   }
-   avg = (double) sum / n;
-   printf("Average: %.3lf", avg);
-   return 0;
 }
