@@ -9,9 +9,9 @@
 #include <math.h>
 
 
-int variable = 15;
 //Prototypes
-
+int getInteger();
+int checkPrimeNumber(int n);
 
 //Structures
 

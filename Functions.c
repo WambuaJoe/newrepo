@@ -1,5 +1,6 @@
 // defining, declaring and calling functions
 #include "header.h"
+
 /*
 type functName(parameter1, parameter2, parameterN) {
     //block of code
@@ -116,11 +117,11 @@ int main() {
     function2();
 
 	return 0;
-}*/
+}
 
 void funct() {
     int x = 2; //local variable
-    auto int y = 3; //static variable
+    auto int y = 3; 
 
     x += 2;
     y += 2;
@@ -131,5 +132,27 @@ void funct() {
 int main() {
     funct();
 
+    return 0;
+}*/
+
+
+int sum(int a) {
+    if (a != 0) {
+        return a + sum(a -= 1);
+    }
+    else {
+        return a;
+    }
+}
+
+int main() {
+    int numb, result;
+
+    printf("Enter positive integer: ");
+    scanf("%d", &numb);
+
+    result = sum(numb);
+
+    printf("sum = %d", result);
     return 0;
 }
