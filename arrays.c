@@ -22,7 +22,7 @@ int main() {
     float result, num[] = {24, 26, 30, 18, 29.5};
 
     result = calcSum(num);
-    printf("Result = %.2f", result);
+    printf("Result = %.2f\n", result);
     return 0;
 }
 
