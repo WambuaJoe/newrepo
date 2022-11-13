@@ -19,17 +19,18 @@
 }*/
 
 int main() {
-    int array1[2][3] = {{1, 2, 3} , {4, 5, 6,}};
-    //array1[0][1] = 4;
-    //array1[1][2] = 8;
+    float result, num[] = {24, 26, 30, 18, 29.5};
 
-    for (int a = 0; a < 2; a++) {
-        for (int b = 0; b < 3; b++) {
-            printf("%d ", array1[a][b]);
-        }
-        printf("\n");
-    }
-    
+    result = calcSum(num);
+    printf("Result = %.2f", result);
     return 0;
 }
 
+float calcSum(float num[]) {
+    float sum = 0.0;
+
+    for (int i = 0; i < 6; i++) {
+        sum += num[i];
+    }
+    return sum;
+}
