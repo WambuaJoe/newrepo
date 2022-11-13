@@ -1,4 +1,4 @@
-//arrays in C - declaration, definition, initialization and accessing elements
+asdfrrays in C - declaration, definition, initialization and accessing elements
 #include "header.h"
 /*int main() {
     int stock[5], i, n, sum = 0;
