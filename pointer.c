@@ -1,5 +1,6 @@
 //understanding C pointers
 //passing addresses and pointers
+#include "header.h"
 
 int main() {
 	int num1 = 5, num2 = 10;
