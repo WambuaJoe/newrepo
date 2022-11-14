@@ -12,7 +12,10 @@
 //Prototypes
 int getInteger();
 int checkPrimeNumber(int n);
-float calcSum(float numB[]);
+float calcSuum(float numB[]);
+float calcSum(float num[]);
+void numDisp(int num[2][2]);
+
 
 //Structures
 
