@@ -58,7 +58,7 @@ void numberDisplay(int num[2][2])
 	{
 		for (int j = 0; j < 2; j++)
 		{
-			printf("%d\n", num[i][j]);
+			printf("%d ", num[i][j]);
 		}
 	}
 }
