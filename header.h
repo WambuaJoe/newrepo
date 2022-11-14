@@ -14,7 +14,7 @@ int getInteger();
 int checkPrimeNumber(int n);
 float calcSuum(float numB[]);
 float calcSum(float num[]);
-void numDisp(int num[2][2]);
+void numberDisplay(int num[2][2]);
 
 
 //Structures

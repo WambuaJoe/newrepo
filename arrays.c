@@ -47,10 +47,11 @@ int main()
 			scanf("%d", &num[a][b]);
 		}
 	}
+	numberDisplay(num);
 	return 0;
 }
 
-void numDisp(int num[2][2])
+void numberDisplay(int num[2][2])
 {
 	printf("Displaying: \n");
 	for (int i = 0; i < 2; i++)
