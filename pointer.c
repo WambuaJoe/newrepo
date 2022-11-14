@@ -1,18 +1,19 @@
 //understanding C pointers
-
-#include "header.h"
-
-void goSouthEast(int *latitude, int *longitude) {
-    *latitude = *latitude - 1;
-    *longitude = *longitude + 1;
-}
+//passing addresses and pointers
 
 int main() {
-    int latitude = 40;
-    int longitude = -45;
+	int num1 = 5, num2 = 10;
 
-    goSouthEast(&latitude, &longitude);
-    printf("You're at [%d, %d]\n", latitude, longitude);
+	swop( &num1, &num2);
 
-    return 0;
+	printf("num1 = %d\n", num1);
+	printf("num2 = %d\n", num2);
+	return 0;
+}
+
+void swop(int* n1, int* n2) {
+	int temp;
+	temp = *n1;
+	*n1 = *n2;
+	*n2 = temp;
 }

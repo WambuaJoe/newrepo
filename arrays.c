@@ -16,7 +16,7 @@
    avg = (double) sum / n;
    printf("Average: %.3lf", avg);
    return 0;
-}*/
+}
 
 int main() {
     float result, num[] = {24, 26, 30, 18, 29.5};
@@ -33,4 +33,33 @@ float calcSum(float num[]) {
         sum += num[i];
     }
     return sum;
+    }*/
+
+int main()
+{
+	int num[2][2];
+
+	printf("Enter 4 numbers: \n");
+	for (int a = 0; a < 2; a++)
+	{
+		for (int b = 0; b < 2; b++)
+		{
+			scanf("%d", &num[a][b]);
+		}
+	}
+	numberDisplay(num);
+	return 0;
 }
+
+void numberDisplay(int num[2][2])
+{
+	printf("Displaying: \n");
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 2; j++)
+		{
+			printf("%d ", num[i][j]);
+		}
+	}
+}
+
