@@ -1,4 +1,4 @@
-//arrays in C - declaration, definition, initialization and accessing elements
+// //arrays in C - declaration, definition, initialization and accessing elements
 #include "header.h"
 /*int main() {
     int stock[5], i, n, sum = 0;
@@ -27,7 +27,7 @@ int main() {
 }
 
 float calcSum(float num[]) {
-    float sum = 0.0;
+    float sum = 0.0; 
 
     for (int i = 0; i < 6; i++) {
         sum += num[i];
