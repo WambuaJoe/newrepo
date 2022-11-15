@@ -2,7 +2,7 @@
 //passing addresses and pointers
 #include "header.h"
 
-int main() {
+/*int main() {
 	int num1 = 5, num2 = 10;
 
 	swop( &num1, &num2);
@@ -17,4 +17,17 @@ void swop(int* n1, int* n2) {
 	temp = *n1;
 	*n1 = *n2;
 	*n2 = temp;
+}*/
+
+void add1(int* ptr) {
+	(*ptr)++;
+}
+
+int main() {
+	int* p, i = 10;
+	p = &i;
+	add1(p);
+
+	printf("%d\n", *p);
+	return 0;
 }
