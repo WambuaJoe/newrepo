@@ -1,7 +1,7 @@
 //understanding C pointers
 //passing addresses and pointers
 #include "header.h"
-
+/*
 int main() {
 	int num1 = 5, num2 = 10;
 
@@ -17,4 +17,9 @@ void swop(int* n1, int* n2) {
 	temp = *n1;
 	*n1 = *n2;
 	*n2 = temp;
+}*/
+
+int main() {
+	printf("%c\t", getchar());
+	return 0;
 }
