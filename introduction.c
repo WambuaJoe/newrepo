@@ -56,11 +56,9 @@ int main()
 }*/
 
 int main() {
-	int a = 5, b = 10, c;
-	
-	c = (a < b) ? a : b;
+	int a = 2, b = 3, sum;
+	sum = (a == 2 ? (b == 3 ? 5 : 6) : 8);
 
-	printf("%d\n", c);
+	printf("%d\n", sum);
 	return 0;
 }
-
