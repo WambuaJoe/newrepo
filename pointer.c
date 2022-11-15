@@ -17,4 +17,16 @@ void swop(int* n1, int* n2) {
 	temp = *n1;
 	*n1 = *n2;
 	*n2 = temp;
+}*/
+
+int main() {
+	int a;
+
+	for (a = 0; a < 10; a++) {
+		if (getchar() == 's')
+			break;
+		printf("%d ", a);
+		printf("\n");
+	}
+	exit(EXIT_SUCCESS);
 }
