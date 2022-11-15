@@ -36,7 +36,7 @@ int main() {
 	printf("\n");
 
 	return 0;
-}
+}*/
 
 
 // C program to demonstrate putchar() method
@@ -45,20 +45,13 @@ int main()
 {
 
   // Get the character to be written
-  char chr = '2';
+  char ch = '1';
 
   // Write the Character to stdout
-  for (chr = '2'; chr < '8'; chr++)
-    putchar(chr);
-  printf("\nFuck you too\n");
+  for (ch = '1'; ch <= '9'; ch++)
+    putchar(ch);
+  printf("\n");
 
   return (0);
-}*/
-
-int main() {
-	int a = 2, b = 3, sum;
-	sum = (a == 2 ? (b == 3 ? 5 : 6) : 8);
-
-	printf("%d\n", sum);
-	return 0;
 }
+
