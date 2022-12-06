@@ -1,0 +1,6 @@
+# ninja log v5
+49	573	6920427835135782	CMakeFiles/newrepo.dir/flowControl.c.obj	3847bc69d4dbe4ca
+17	588	6920427835206538	CMakeFiles/newrepo.dir/arrays.c.obj	e4854fe1904027fb
+1	598	6920427835247184	CMakeFiles/newrepo.dir/bitwise-ops.c.obj	1e39e719b6e659c6
+599	931	6920427838939035	CMakeFiles/newrepo.dir/input-output.c.obj	81e97379ff0e0b54
+589	1024	6920427839631838	CMakeFiles/newrepo.dir/Functions.c.obj	c7271cea39688e4e
